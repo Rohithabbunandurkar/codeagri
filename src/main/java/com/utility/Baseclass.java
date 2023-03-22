@@ -42,5 +42,9 @@ public class Baseclass {
 	public void teardown() {
 		d.close();
 	}
-
+@BeforeMethod
+public void main() {
+	System.out.println("rohit");
 }
+}
+
